@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "description": "should return the correct sum for positive numbers",
+      "input": [1, 2, 3],
+      "expected": 6
+    },
+    {
+      "description": "should return the correct sum for negative numbers",
+      "input": [-1, -2, -3],
+      "expected": -6
+    },
+    {
+      "description": "should return the correct sum for mixed numbers",
+      "input": [-1, 2, 3],
+      "expected": 4
+    }
+  ]
+}
